@@ -61,3 +61,21 @@ else {
 }
 })
 }
+// local storage which collects the data 
+
+$("#hour8 .listing").val(localStorage.getItem("hour8"));
+$("#hour9 .listing").val(localStorage.getItem("hour9"));
+$("#hour10 .listing").val(localStorage.getItem("hour10"));
+$("#hour11 .listing").val(localStorage.getItem("hour11"));
+$("#hour12 .listing").val(localStorage.getItem("hour12"));
+$("#hour13 .listing").val(localStorage.getItem("hour13"));
+$("#hour14 .listing").val(localStorage.getItem("hour14"));
+$("#hour15 .listing").val(localStorage.getItem("hour15"));
+$("#hour16 .listing").val(localStorage.getItem("hour16"));
+$("#hour17 .listing").val(localStorage.getItem("hour17"));
+
+
+// calling the function so the planner can run.
+
+LoggingPlanner();
+})
