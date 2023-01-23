@@ -35,3 +35,11 @@ function LoggingPlanner() {
     $(".time-block").each(function () {
         var Lengthcapture = parseInt($(this).attr("id").split("hour")[1]);
 
+// Needing to have an if/else statemnt to go through things if it is not this then go to this.
+// The statement will check for the time block and if its less then the GMT, then the previos class will be added and the upcoming and current class names will be changed.
+
+if (Lengthcapture < GMT) {
+    $(this).removeClass("future");
+    $(this).removeClass("present");
+    $(this).addClass("past");
+}
