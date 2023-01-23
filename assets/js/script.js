@@ -50,3 +50,14 @@ else if (Lengthcapture === GMT) {
     $(this).removeClass("future");
     $(this).addClass("present");    
 }
+
+// The statement will now complete the above two statments are returned false then the execution of the below will be run.
+
+else {
+    $(this).removeClass("present");
+    $(this).removeClass("past");
+    $(this).addClass("future");
+
+}
+})
+}
