@@ -43,3 +43,10 @@ if (Lengthcapture < GMT) {
     $(this).removeClass("present");
     $(this).addClass("past");
 }
+// Now to the second part if the above is captured, if not then else if.
+
+else if (Lengthcapture === GMT) {
+    $(this).removeClass("past");
+    $(this).removeClass("future");
+    $(this).addClass("present");    
+}
