@@ -7,7 +7,7 @@ I have designed a website using bootstap and its code, to showcase what i believ
 User story:
 Now integrated as a fully coding bootcamp student i have made here a a week planner to add impprtant events in a weekly planner using javascript fundamentals as an employee, as i want to add important events to a weekly planner so that time can be calculated perfectly. 
 
-My motivation behind this was to advance my learning and showcase my skills usingnadvanced JavaScriptn and integration of APIs.
+My motivation behind this was to advance my learning and showcase my skills using advanced JavaScriptn and integration of APIs.
 
 ## Screenshot
 <img src="assets/images/finalworkplanner.png" alt="">
